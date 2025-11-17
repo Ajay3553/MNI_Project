@@ -253,6 +253,7 @@ Update `RIPENESS_MAP` and redefine ripeness labels (currently 0-3, can be expand
 - IEEE Publication: Ripeness Detection by Spectral Analysis (CONIT 2022)
 - Machine Learning Framework: scikit-learn
 - Data Processing: Pandas, NumPy
+- Kaggle Image Dataset [Image-Dataset](https://www.kaggle.com/datasets/chrisfilo/fruit-recognition) 
 
 
 ## Next Steps
