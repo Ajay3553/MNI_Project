@@ -1,0 +1,27 @@
+// To Test 
+Live camera mode (default):
+python main_ripeness_detector.py
+
+
+Using a saved image for testing:
+python main_ripeness_detector.py --image images/mango.png
+
+
+Optional old mode:
+python main_ripeness_detector.py --rgb-input 150 120 85 0 // r g b fruit_id(fruitname ID)
+
+
+// Fruit First Layer
+To predict the Fruit:
+python predict.py --image "images/apple2.png"
+
+To train Fruit Classifier:
+python fruit_classifier.py
+
+
+//Second Layer
+To generate for dataset in csv file:
+python ripeness_dataset.py
+
+To train the train_ripeness_per_fruit
+python train_ripeness_per_fruit.py --csv data/fruit_ripeness_dataset.csv --model-dir ripeness_models --epochs 300

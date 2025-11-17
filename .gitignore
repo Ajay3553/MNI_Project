@@ -1,0 +1,34 @@
+# -------------------------
+# Python bytecode / caches
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------
+# Virtual environments
+# -------------------------
+venv/
+proj_sklearn-env/
+.env/
+.venv/
+.env*/
+.venv*/
+
+# -------------------------
+# Image files (do not push)
+# -------------------------
+*.png
+*.PNG
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
+
+# -------------------------
+# OS / Editor junk
+# -------------------------
+.DS_Store
+Thumbs.db
+.vscode/
