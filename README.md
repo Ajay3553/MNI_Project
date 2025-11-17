@@ -26,7 +26,7 @@ RGB Color Input (R, G, B)
     ┌────────────────────────────┐
     │ LAYER 2: Ripeness Detector │
     │(train_ripeness_per_fruit.py)│
-    │ 5 Fruit-Specific Models    │
+    │ 4 Fruit-Specific Models    │
     │ Each: (3-16-8-4 neurons)   │
     └────────────────────────────┘
          ↓ (Ripeness Code)
@@ -40,7 +40,7 @@ RGB Color Input (R, G, B)
     └────────────────────────────┘
          ↓
     ┌────────────────────────────┐
-    │   LED Control      │
+    │   LED Control              │
     │   Pin 2: Green  (0)        │
     │   Pin 3: Yellow (1)        │
     │   Pin 4: White  (2)        │
@@ -55,7 +55,7 @@ RGB Color Input (R, G, B)
 | File | Purpose | Input | Output |
 |------|---------|-------|--------|
 | `fruit_classifier.py` | Train fruit type detector | CSV (R,G,B,fruit_type) | `fruit_classifier_model.joblib` |
-| `train_ripeness_per_fruit.py` | Train ripeness models per fruit | CSV (R,G,B,fruit_type,ripeness) | `ripeness_models/` (5 models) |
+| `train_ripeness_per_fruit.py` | Train ripeness models per fruit | CSV (R,G,B,fruit_type,ripeness) | `ripeness_models/` (4 models) |
 | `main_ripeness_detector.py` | End-to-end inference | RGB values | Fruit + Ripeness prediction |
 
 ### Documentation
