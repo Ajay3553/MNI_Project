@@ -13,7 +13,6 @@ Fruit type mapping:
   1 = Banana
   2 = Mango
   3 = Orange
-  4 = Strawberry
 
 Ripeness label mapping:
   0 = Early Ripe
@@ -41,7 +40,6 @@ FRUIT_MAP: Dict[int, str] = {
     1: "Banana",
     2: "Mango",
     3: "Orange",
-    4: "Strawberry"
 }
 
 RIPENESS_MAP: Dict[int, str] = {
